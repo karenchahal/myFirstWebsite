@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  color: blue;
+}
+
+a {
+  text-decoration: none;
+}
+
+div {
+  height: 465px;
+  width: 1503px;
+  text-align: justify;
+}
+
+#imgContainer {
+  background-color: rgb(190, 36, 121);
+  background-size: 100px 100px;
+}
+
+#profileImg {
+  height: 350px;
+  border-radius: 60px;
+  position: relative;
+  left: 40vw;
+  margin-top: 10px;
+}
+
+#title {
+  position: relative;
+  left: 44vw;
+  width: 220px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 100px;
+  padding: 10px;
+}
+
+h2 {
+  background-color:rosybrown;
+  position: sticky;
+  display: flex;
+  justify-content: center;
+}
+
+#favpics {
+  display: flex;
+  justify-content: space-around;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  border-right: 5px solid #bbb;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 60px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+li:last-child {
+  border-right: #111
+}
